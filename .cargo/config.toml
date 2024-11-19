@@ -1,0 +1,5 @@
+[target.wasm32-unknown-unknown]
+rustflags = ["-Ctarget-cpu=mvp"]
+
+[unstable]
+build-std = ["std", "panic_abort"]
