@@ -67,6 +67,5 @@ npm test -- --safari
 
 
 ## Tools
-Rust Version: 1.57.0 Target: wasm32-unknown-unknown Edition: 2021
-Rust Nighly: when needed for parseVec error
-Node Version: Nodejs 16.13.0
+* Rust Nighly: rustc 1.87.0-nightly
+* Node Version: Nodejs 16.13.0
