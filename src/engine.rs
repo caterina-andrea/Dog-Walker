@@ -10,7 +10,7 @@ use std::{cell::RefCell, collections::HashMap, rc::Rc, sync::Mutex};
 use wasm_bindgen::{prelude::Closure, JsCast, JsValue};
 use web_sys::{CanvasRenderingContext2d, HtmlImageElement};
 
-#[derive(Deserialize)]
+#[derive(Deserialize, Clone)]
 pub struct SheetRect {
     pub x: i16,
     pub y: i16,
@@ -18,12 +18,14 @@ pub struct SheetRect {
     pub h: i16,
 }
 
-#[derive(Deserialize)]
+#[derive(Deserialize, Clone)]
+#[serde(rename_all = "camelCase")]
 pub struct Cell {
     pub frame: SheetRect,
+    pub sprite_source_size: SheetRect,
 }
 
-#[derive(Deserialize)]
+#[derive(Deserialize, Clone)]
 pub struct Sheet {
     pub frames: HashMap<String, Cell>,
 }
