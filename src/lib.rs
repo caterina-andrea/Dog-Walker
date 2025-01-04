@@ -2,6 +2,7 @@
 mod browser;
 mod engine;
 mod game;
+mod segments;
 
 use wasm_bindgen::prelude::*;
 use engine::GameLoop;

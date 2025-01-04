@@ -1,7 +1,7 @@
 # Walk the Dog
 ## Description
 Current State: 
-A red hat boy who can run, jump, and slide to avoid obstacles.
+An endless runner where you play as red hat boy who is running through the forest and can run, jump, and slide to avoid obstacles.
 My goal:
 An endless runner where you play as a boy walking his dog through the forest when your dog is surprised by the cat that runs by and starts chasing it. You then begin chasing your dog through the forest, dodging obstacles along the way, until you crash into one and fall down. At which point the dog turns around to check on you (obviously).
 
@@ -10,6 +10,8 @@ An endless runner where you play as a boy walking his dog through the forest whe
 * Right arrow key: To run forward
 * Down arrow key: To butt slide
 * Space bar: To jump
+### Restart
+Refresh page
 
 ## Specs
 * Updating at 60 fps
